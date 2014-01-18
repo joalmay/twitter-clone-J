@@ -36,7 +36,9 @@ $(function(){
     	console.log(name +" -> "+ text);
     	sendTweet(name, avatar, text);
 
-    	//Clear Text Area
+    	//Clear Text Area 
+       	//$('.tweet-compose').parent
+    	$('.tweet-compose').val("");
     });
 
 });
