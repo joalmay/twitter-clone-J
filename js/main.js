@@ -34,7 +34,7 @@ $(function(){
     	$('.tweet-compose').val("");
     });
 
-    //Step 6 Tweet COntent
+    //Step 6 Tweet Content
     $('.tweet-controls').hide();
 
     $('.content').hover(function() {
